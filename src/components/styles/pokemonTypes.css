@@ -1,0 +1,8 @@
+.type-list {
+  display: flex;
+}
+
+.type {
+  padding: 15px;
+  margin: 10px 5px;
+}
