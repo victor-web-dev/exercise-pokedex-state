@@ -53,10 +53,9 @@ export default class Pokedex extends Component {
   }
 
   handleTypeChange = (event) => {
-    this.setState(() => ({
+    this.setState({
       selectedType: event.target.value
-    }));
-    console.log(this.state.selectedType);
+    }, this.filterSelectedTypePokemons);
   }; 
 
   render() {
